@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+.container{
+    /* background-color: darksalmon; */
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+
+p {
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 5%;
+}
+
+img {
+    margin-top: -50px;
+    margin-bottom: 25px;
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+
+#yesBtn {
+    border-radius: 5px;
+    transform: translate(-100%,0);
+}
+
+#noBtn {
+    border-radius: 5px;
+    position: absolute;
+}
+
+body {
+   background-image: linear-gradient(135deg, #00e7d4, #505488, #ef3f80, #161569, #ef3f80, #505488, #00e7d4);
+   background-size: 500%;
+   animation: fanimado 60s infinite;
+}
+
+@keyframes fanimado {
+    0%{
+        background-image: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
